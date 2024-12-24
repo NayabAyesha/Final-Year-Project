@@ -1,0 +1,90 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px; /* Adjust based on your design */
+  margin: 10px; /* Adjust spacing between cards */
+  text-align: center;
+  font-family: arial;
+  transition: background-color 0.3s ease, border 0.3s ease;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.ra {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+.name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+.tt {
+  color: black;
+  font-size: 22px;
+}
+
+.rating-star {
+  display: flex;
+  align-items: center;
+}
+
+.rating-star .fas, .rating-star .far {
+  color:  #000;
+  margin-right: 5px;
+}
+
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.card:hover {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 90px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+.product-list {
+  display: flex; /* Use flexbox for horizontal layout */
+  flex-wrap: wrap; /* Allow wrapping to next line */
+  justify-content: space-around; /* Adjust as per your design */
+  gap: 16px;
+}
+
+
+.page_button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.page_button:hover {
+  opacity: 0.7;
+}

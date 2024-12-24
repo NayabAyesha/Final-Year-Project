@@ -1,0 +1,23 @@
+{
+  "name": "ecommerce-scrapers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dom-parser": "^1.1.5",
+    "html-dom-parser": "^5.0.8",
+    "jsdom": "^24.0.0",
+    "puppeteer": "^22.6.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1"
+  }
+}
